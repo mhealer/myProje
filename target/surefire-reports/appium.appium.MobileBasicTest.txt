@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: appium.appium.MobileBasicTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.581 sec <<< FAILURE! - in appium.appium.MobileBasicTest
+caleq14(appium.appium.MobileBasicTest)  Time elapsed: 0.58 sec  <<< ERROR!
+java.lang.NoSuchMethodError: com.google.common.collect.ImmutableSet.toImmutableSet()Ljava/util/stream/Collector;
+	at org.openqa.selenium.remote.ProtocolHandshake.streamW3CProtocolParameters(ProtocolHandshake.java:284)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:149)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:36)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:114)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:132)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:92)
+	at appium.appium.MobileWebDriver.init(MobileWebDriver.java:44)
+	at appium.appium.MobileBasicTest.setup(MobileBasicTest.java:14)
+
+caleq14(appium.appium.MobileBasicTest)  Time elapsed: 0.581 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at appium.appium.MobileWebDriver.quit(MobileWebDriver.java:71)
+	at appium.appium.MobileBasicTest.tearDown(MobileBasicTest.java:35)
+
