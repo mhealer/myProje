@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: appium.appium.mobileTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.539 sec <<< FAILURE! - in appium.appium.mobileTest
-caleq14(appium.appium.mobileTest)  Time elapsed: 0.538 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.611 sec <<< FAILURE! - in appium.appium.mobileTest
+caleq14(appium.appium.mobileTest)  Time elapsed: 0.61 sec  <<< ERROR!
 java.lang.NoSuchMethodError: com.google.common.collect.ImmutableSet.toImmutableSet()Ljava/util/stream/Collector;
 	at org.openqa.selenium.remote.ProtocolHandshake.streamW3CProtocolParameters(ProtocolHandshake.java:284)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:149)
@@ -20,7 +20,7 @@ java.lang.NoSuchMethodError: com.google.common.collect.ImmutableSet.toImmutableS
 	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:132)
 	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:92)
 	at appium.appium.MobileWebDriver.init(MobileWebDriver.java:44)
-	at appium.appium.MobileBasicTest.setup(MobileBasicTest.java:20)
+	at appium.appium.MobileBasicTest.setup(MobileBasicTest.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)

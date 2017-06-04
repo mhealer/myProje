@@ -7,7 +7,7 @@ public class mobileTest extends MobileBasicTest {
 
 //	MobileWebDriver driver;
 
-///	private final static String idPrefix = "com.example.android.contactmanager:id/";
+	private final static String idPrefix = "com.example.android.contactmanager:id/";
 
 
 	

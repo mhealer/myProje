@@ -15,13 +15,8 @@ public class MobileBasicTest {
 
 	@Before
 	public void setup() throws Exception {
-		try {
-			webDriver = new MobileWebDriver();
-			webDriver.init("ContactManager.apk", "Nexus5", "127.0.0.1:4723");
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		webDriver = new MobileWebDriver();
+		webDriver.init("ContactManager.apk", "Nexus5", "127.0.0.1:4723");
 		
 		
 		
